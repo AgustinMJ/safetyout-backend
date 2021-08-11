@@ -1,0 +1,41 @@
+{
+  "name": "safetyoutbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelng28/SafetyOUTBackEnd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joelng28/SafetyOUTBackEnd/issues"
+  },
+  "homepage": "https://github.com/joelng28/SafetyOUTBackEnd#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "aws-sdk": "^2.918.0",
+    "bcrypt": "^5.0.1",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.3.2",
+    "mongoose": "^5.11.15",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "newman": "^5.2.2",
+    "nodemon": "^2.0.7",
+    "randomstring": "^1.1.5",
+    "shortid": "^2.2.16",
+    "socket.io": "^3.1.2",
+    "socket.io-client": "^4.0.1"
+  }
+}
